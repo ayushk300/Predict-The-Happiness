@@ -100,5 +100,5 @@ false_positive = cm[1,1]
 false_negative = cm[2,2]
 accuracy = (true_negative + true_positive)/(false_positive + false_negative + true_negative + true_positive)
 precision = true_positive /(true_positive + false_positive)
-precision = true_positive /(true_positive + false_negative)
+recall = true_positive /(true_positive + false_negative)
 f1_score = 2*(precision * recall)/(precision + recall)
