@@ -1,4 +1,3 @@
-#https://www.hackerearth.com/challenge/competitive/predict-the-happiness/machine-learning/predict-the-happiness/
 library('data.table')
 library("tm", lib.loc="~/R/win-library/3.3")
 library("SnowballC", lib.loc="~/R/win-library/3.3")
